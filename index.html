@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_2</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <!--Navbar-->
+            <div class="navbar">
+                <ul>
+                    <a href="index.html">Home</a>
+                    <a href="#">Product</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Inventory</a>
+                </ul>
+            </div>
+
+        <!-- PROFILE -->
+        <div id="content">
+            <div class="maincontent">
+                <img src="images/profile.jpeg" alt="profile.png" class="profileimage">
+                <div class="titlecontent">
+                    <h2 id="name">Your Name</h2>
+                    <p id="role">Your role</p>
+                    <button id="button1">Edit</button>
+                    <button id="button2">Resume</button>
+                </div>
+                <table class="biodata">
+                    <tr>
+                        <td class="tdbio">Availabillity</td>
+                        <td>:</td>
+                        <td id="availability"></td>
+                    </tr>
+                    <tr>
+                        <td class="tdbio">Age</td>
+                        <td>:</td>
+                        <td id="age"></td>
+                    </tr>
+                    <tr>
+                        <td class="tdbio">Location</td>
+                        <td>:</td>
+                        <td id="location"></td>
+                    </tr>
+                    <tr>
+                        <td class="tdbio">Years Experience</td>
+                        <td>:</td>
+                        <td id="years"></td>
+                    </tr>
+                    <tr>
+                        <td class="tdbio">Email</td>
+                        <td>:</td>
+                        <td id="email"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!--Form-->
+        <div id="form">
+            <div class="formtab">
+                <label for="name">Name</label><br>
+                <input type="text" class="formlist" id="nameInput" name="name"><br><br>
+                <label for="role">Role</label><br>
+                <input type="text" class="formlist" id="roleInput" name="role"><br><br>
+                <label for="availability">Availability</label><br>
+                <input type="text" class="formlist" id="availabilityInput" name="availability"><br><br>
+                <label for="age">Age</label><br>
+                <input type="text" class="formlist" id="ageInput" name="age"><br><br>
+                <label for="address">Location</label><br>
+                <input type="text" class="formlist" id="locationInput" name="location"><br><br>
+                <label for="experience">Years Experience</label><br>
+                <input type="text" class="formlist" id="yearsInput" name="experience"><br><br>
+                <label for="email">Email</label><br>
+                <input type="email" class="formlist" id="emailInput" name="email"><br><br>
+                <button id="button3" onclick="">SUBMIT</button>
+            </div>
+        </div>
+
+        <!--FOOTER-->
+        <footer>
+            <center>&#169;2023 by Robi Martoni</center>
+        </footer>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
